@@ -17,45 +17,7 @@ response:
     “Str”
 ]
 ```
-{
-	"info": {
-		"_postman_id": "6124136f-8146-4024-91aa-c0b175bebe49",
-		"name": "HW_1",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
-	},
-	"item": [
-		{
-			"name": "EP_1",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://162.55.220.72:5005/get_method?name=Dima&age=23",
-					"protocol": "http",
-					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
-					],
-					"port": "5005",
-					"path": [
-						"get_method"
-					],
-					"query": [
-						{
-							"key": "name",
-							"value": "Dima"
-						},
-						{
-							"key": "age",
-							"value": "23"
-						}
-					]
-				}
-			},
-			"response": []
-		},
+![1](https://user-images.githubusercontent.com/88891623/142166157-966aba84-11c1-45e0-988a-23efd4e87d38.PNG)
 ```
 ==================
 
@@ -74,48 +36,7 @@ response:
           'family': {'children': [['Alex', 24], ['Kate', 12]],
                      'u_salary_1_5_year': salary * 4}}
 ```
-{
-			"name": "EP_2",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "formdata",
-					"formdata": [
-						{
-							"key": "name",
-							"value": "Dima",
-							"type": "text"
-						},
-						{
-							"key": "age",
-							"value": "23",
-							"type": "text"
-						},
-						{
-							"key": "salary",
-							"value": "1000",
-							"type": "text"
-						}
-					]
-				},
-				"url": {
-					"raw": "http://162.55.220.72:5005/user_info_3",
-					"protocol": "http",
-					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
-					],
-					"port": "5005",
-					"path": [
-						"user_info_3"
-					]
-				}
-			},
-			"response": []
-		},
+![2](https://user-images.githubusercontent.com/88891623/142166145-3faeb612-8789-4f5b-9230-5d9607b88afb.PNG)
 ```
 ==================
 
@@ -133,49 +54,7 @@ response:
           'daily_food': weight * 0.012,
           'daily_sleep': weight * 2.5}
 ```
-{
-			"name": "EP_3",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": ""
-				},
-				"url": {
-					"raw": "http://162.55.220.72:5005/object_info_1?name=Dima&age=23&weight=1000",
-					"protocol": "http",
-					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
-					],
-					"port": "5005",
-					"path": [
-						"object_info_1"
-					],
-					"query": [
-						{
-							"key": "name",
-							"value": "Dima"
-						},
-						{
-							"key": "age",
-							"value": "23"
-						},
-						{
-							"key": "weight",
-							"value": "1000"
-						}
-					]
-				}
-			},
-			"response": []
-		},
+![3](https://user-images.githubusercontent.com/88891623/142166147-7b59753a-34ed-4a4a-8ece-3d9c3db2eb95.PNG)
 ```
 ==================
 
@@ -198,49 +77,7 @@ response:
                      'u_salary_5_years': salary * 4.2}
           }
 ```
-{
-			"name": "EP_4",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"body": {
-					"mode": "formdata",
-					"formdata": []
-				},
-				"url": {
-					"raw": "http://162.55.220.72:5005/object_info_2?name=Dima&age=23&salary=1000",
-					"protocol": "http",
-					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
-					],
-					"port": "5005",
-					"path": [
-						"object_info_2"
-					],
-					"query": [
-						{
-							"key": "name",
-							"value": "Dima"
-						},
-						{
-							"key": "age",
-							"value": "23"
-						},
-						{
-							"key": "salary",
-							"value": "1000"
-						}
-					]
-				}
-			},
-			"response": []
-		},
+![4](https://user-images.githubusercontent.com/88891623/142166149-4d4aee14-50c1-4f50-b927-8eeadcab728a.PNG)
 ```
 ==================
 
@@ -264,49 +101,7 @@ response:
                      'u_salary_1_5_year': salary * 4}
           }
 ```
-{
-			"name": "EP_5",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"body": {
-					"mode": "formdata",
-					"formdata": []
-				},
-				"url": {
-					"raw": "http://162.55.220.72:5005/object_info_3?name=Dima&age=23&salary=1000",
-					"protocol": "http",
-					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
-					],
-					"port": "5005",
-					"path": [
-						"object_info_3"
-					],
-					"query": [
-						{
-							"key": "name",
-							"value": "Dima"
-						},
-						{
-							"key": "age",
-							"value": "23"
-						},
-						{
-							"key": "salary",
-							"value": "1000"
-						}
-					]
-				}
-			},
-			"response": []
-		},
+![5](https://user-images.githubusercontent.com/88891623/142166150-0e18aa7e-2fb0-435d-b3e0-37ef011356f7.PNG)
 ```
 ==================
 
@@ -323,49 +118,7 @@ response:
           'age': int(age),
           'salary': [salary, str(salary * 2), str(salary * 3)]}
 ```
-	{
-			"name": "EP_6",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"body": {
-					"mode": "formdata",
-					"formdata": []
-				},
-				"url": {
-					"raw": "http://162.55.220.72:5005/object_info_4?name=Dima&age=23&salary=1000",
-					"protocol": "http",
-					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
-					],
-					"port": "5005",
-					"path": [
-						"object_info_4"
-					],
-					"query": [
-						{
-							"key": "name",
-							"value": "Dima"
-						},
-						{
-							"key": "age",
-							"value": "23"
-						},
-						{
-							"key": "salary",
-							"value": "1000"
-						}
-					]
-				}
-			},
-			"response": []
-		},
+![6](https://user-images.githubusercontent.com/88891623/142166151-c963e064-177d-42be-bf00-59c49e88d002.PNG)
 ```
 ==================
 
@@ -388,50 +141,7 @@ response:
                      'u_salary_5_years': salary * 4.2}
           }
 ```
-{
-			"name": "EP_7",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "formdata",
-					"formdata": [
-						{
-							"key": "name",
-							"value": "Dima",
-							"type": "text"
-						},
-						{
-							"key": "age",
-							"value": "23",
-							"type": "text"
-						},
-						{
-							"key": "salary",
-							"value": "1000",
-							"type": "text"
-						}
-					]
-				},
-				"url": {
-					"raw": "http://162.55.220.72:5005/user_info_2",
-					"protocol": "http",
-					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
-					],
-					"port": "5005",
-					"path": [
-						"user_info_2"
-					]
-				}
-			},
-			"response": []
-		}
-	]
-}
+![7](https://user-images.githubusercontent.com/88891623/142166154-9e0fcf09-ec8b-4d77-b85e-02fb9fc73c08.PNG)
 ```
 ____
 ## Домашняя работа Postman №1.5
