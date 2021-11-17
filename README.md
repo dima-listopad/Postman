@@ -16,9 +16,9 @@ response:
     “Str”,
     “Str”
 ]
-```
-![1](https://user-images.githubusercontent.com/88891623/142166157-966aba84-11c1-45e0-988a-23efd4e87d38.PNG)
-```
+
+![1](https://user-images.githubusercontent.com/88891623/142167102-7e05ac12-4d42-46cc-ba7e-87613139f2d3.PNG)
+
 ==================
 
 EP_2
@@ -35,9 +35,9 @@ response:
           'salary': salary,
           'family': {'children': [['Alex', 24], ['Kate', 12]],
                      'u_salary_1_5_year': salary * 4}}
-```
+
 ![2](https://user-images.githubusercontent.com/88891623/142166145-3faeb612-8789-4f5b-9230-5d9607b88afb.PNG)
-```
+
 ==================
 
 EP_3
@@ -53,9 +53,9 @@ response:
           'age': age,
           'daily_food': weight * 0.012,
           'daily_sleep': weight * 2.5}
-```
+
 ![3](https://user-images.githubusercontent.com/88891623/142166147-7b59753a-34ed-4a4a-8ece-3d9c3db2eb95.PNG)
-```
+
 ==================
 
 EP_4
@@ -76,9 +76,9 @@ response:
                      'u_age': age,
                      'u_salary_5_years': salary * 4.2}
           }
-```
+
 ![4](https://user-images.githubusercontent.com/88891623/142166149-4d4aee14-50c1-4f50-b927-8eeadcab728a.PNG)
-```
+
 ==================
 
 EP_5
@@ -100,9 +100,9 @@ response:
                                      'age': 4}},
                      'u_salary_1_5_year': salary * 4}
           }
-```
+
 ![5](https://user-images.githubusercontent.com/88891623/142166150-0e18aa7e-2fb0-435d-b3e0-37ef011356f7.PNG)
-```
+
 ==================
 
 EP_6
@@ -117,9 +117,9 @@ response:
 {'name': name,
           'age': int(age),
           'salary': [salary, str(salary * 2), str(salary * 3)]}
-```
+
 ![6](https://user-images.githubusercontent.com/88891623/142166151-c963e064-177d-42be-bf00-59c49e88d002.PNG)
-```
+
 ==================
 
 EP_7
@@ -140,9 +140,9 @@ response:
                      'u_age': age,
                      'u_salary_5_years': salary * 4.2}
           }
-```
+
 ![7](https://user-images.githubusercontent.com/88891623/142166154-9e0fcf09-ec8b-4d77-b85e-02fb9fc73c08.PNG)
-```
+
 ____
 ## Домашняя работа Postman №1.5
 
